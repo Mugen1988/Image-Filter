@@ -1,4 +1,5 @@
 import React from "react"
+import imageUrl from "./images/kunal-goswami-CuUn__aMGD4-unsplash.jpg"
 
 export default function App() {
 	const [filter, setFilter] = React.useState({
@@ -32,7 +33,7 @@ export default function App() {
 			<h1><span>📷</span> Photo Editor <span>📷</span></h1>
 
 			<div className="image-container">
-				<img src="./images/kunal-goswami-CuUn__aMGD4-unsplash.jpg" style={filter}/>
+				<img src={imageUrl} style={filter}/>
 			</div>
 
 			<form>
