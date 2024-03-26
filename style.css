@@ -5,8 +5,8 @@
 }
 
  img {
-     width: 200px;
-     height: 200px;
+     width: 280px;
+     height: 280px;
      object-fit: cover;
      border-radius: 10px;
      object-position: 50% 20%;
@@ -30,8 +30,8 @@
 }
 
  .main-container {
-     width: 320px;
-     height: 550px;
+     width: 360px;
+     height: 650px;
      background: rgb(236, 236, 236);
      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
      background-size: 200%;
@@ -46,9 +46,9 @@
 }
 
  h1 {
-     width: 200px;
+     width: 280px;
      font-size: 20px;
-     margin: 30px 0 -20px 0;
+     margin: 30px 0 0px 0;
      background: #c3cfe2;
      text-align: center;
      padding: 10px;
@@ -61,22 +61,24 @@ h1 span {
 }
 
  .image-container {
-     width: 210px;
-     height: 210px;
+     width: 280px;
+     height: 280px;
      background: ghostwhite;
      border-radius: 10px;
      display: flex;
      justify-content: center;
      align-items: center;
      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+     margin: 10px;
 
 }
 
  form {
-     height: 200px;
+     height: 300px;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
+     margin-top: 10px;
 }
 
  label {
@@ -91,8 +93,26 @@ label span {
     background: ghostwhite;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-    width: 90px;
+    width: 120px;
     text-align: center;
+}
+
+.custom-upload-button {
+    /* Style the label to match the desired appearance */
+    padding: 5px;
+    background: ghostwhite;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* Styling the input[type="file"] within the label */
+.custom-upload-button input[type="file"] {
+    /* Hide the default button */
+    display: none;
 }
 
  label:last-of-type {
@@ -104,7 +124,7 @@ label span {
      appearance: none;
      background: transparent;
      cursor: pointer;
-     width: 200px;
+     width: 280px;
      z-index: 10
 }
 
@@ -161,3 +181,5 @@ label span {
      outline: 3px solid #808080;
      outline-offset: 0.125rem;
 }
+
+
