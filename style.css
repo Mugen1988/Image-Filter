@@ -98,15 +98,25 @@ label span {
 }
 
 .custom-upload-button {
-    /* Style the label to match the desired appearance */
     padding: 5px;
     background: ghostwhite;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-    width: 120px;
+    width: 150px;
     text-align: center;
     cursor: pointer;
     margin: 0 auto;
+}
+.custom-download-button {
+    padding: 5px;
+    background: ghostwhite;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto 10px;
 }
 
 /* Styling the input[type="file"] within the label */
@@ -116,7 +126,7 @@ label span {
 }
 
  label:last-of-type {
-     margin-bottom: 20px;
+     margin-bottom: 5px;
 }
 /*********** Baseline, reset styles ***********/
  input[type="range"] {
